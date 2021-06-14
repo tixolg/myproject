@@ -1,0 +1,19 @@
+Главные Объекты
+Container
+1. Pod наименьшая единица кубика, в котором работают контейнеры
+2. Deployment - среда для сэта реплик подов, где удобно делать аутоскейлинг и апдейты + поды раскидываются по серверам (один под-один сервер)
+3. Service предоставляет доступ к Deployment через ClusterIp, NodePort, LoadBalancer, ExternalName
+4. Nodes - сервера где крутится всё, описанное выше
+5. Cluster - логическое объединение Nodes
+
+Объекты
+DeamonSets
+StatefulSets
+ReplicaSets
+Secrets
+Pv
+SVC
+LoadBalancers
+ConfigMaps
+Vertical Pod Autoscaler
+Horizontal Pod Autoscaler
